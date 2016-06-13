@@ -1,6 +1,10 @@
 # colourful-ping
 This is my first repository and I'm trying to make the cmd ping command change colour depending on the time value.
-My internet is not always working properly and I'd like to check the quality based on the cmd windows tool. The command I thought would be the most useful for this purpose is:	<i>C:\Windows\System32\PING.EXE 8.8.8.8 -t </i>. The problem is that it just adds too many innecesary data and its is not that easy to check all every the ms. I believe adding a colour gradient or something similar would make things much more intuitive for me.
+My internet is not always working properly and I'd like to check the quality based on the cmd windows tool. The command I thought would be the most useful for this purpose is:
+
+<i>C:\Windows\System32\PING.EXE 8.8.8.8 -t </i>
+
+The problem is that it just adds too many innecesary data and its is not that easy to check all every the ms. I believe adding a colour gradient or something similar would make things much more intuitive for me.
 
 I once asked this question on <a href="http://stackoverflow.com/questions/35260196/manipulate-cmd-ping-color-based-on-time">Stack Overflow</a> and the answer was rather intimidating. Someone tried to help me by spitting this code:
 	
