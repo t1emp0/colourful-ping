@@ -1,0 +1,12 @@
+    @ECHO OFF
+    SETLOCAL
+    SET loops=10
+    :loop
+    FOR /f "tokens=3delims==" %%a IN ('PING 8.8.8.8 -n 1') DO FOR /f "delims=m" %%b IN ("%%a") DO ECHO %%b&COLOR %%b&GOTO cchgd
+    :cchgd
+    PAUSE
+    SET /a loops-=1
+    IF %loops% gtr 0 GOTO loop
+    COLOR
+    
+    GOTO :EOF
